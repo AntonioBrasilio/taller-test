@@ -1,0 +1,10 @@
+.item {
+  margin-right: 1.5rem;
+}
+
+.dataItem {
+  margin: 10px 0px;
+  border: solid 0.5px;
+  max-width: 500px;
+  padding: 10px;
+}

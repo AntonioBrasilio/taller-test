@@ -1,0 +1,11 @@
+<div class="dataContainer">
+  <h3>Please, type a name</h3>
+  <input
+    placeholder="Name"
+    (ngModelChange)="handleSearch()"
+    [(ngModel)]="search"
+  />
+  @for(data of dataFiltered; track data) {
+  <app-item-component [data]="data"></app-item-component>
+  }
+</div>
